@@ -1,6 +1,6 @@
 #!/bin/bash
 
-omdb_api_key="28bbc2ad"
+omdb_api_key= "YOUR_API_KEY"
 
 if [ -z "$omdb_api_key" ]; then
     echo "Please include the API key."
