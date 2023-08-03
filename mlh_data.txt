@@ -1,0 +1,61 @@
+Data lifecycle
+-CRUD operation (create,retrieve,update and delete any data that store anywhere)
+  -Data retrieval methods (can use any of the -
+      -Query language(like sql)
+      -web scraping (html,xml(stuructured)) (scrap data from imdb websites)
+      -APIs (provide breach between your software and any other external system)  )
+
+-APIs are much better for retrieving data
+
+data scraping vs APIs:-
+
+(1)
+web scraping 
+-one the the methods of retrieving data from websites
+-parse html document to collect info from web pages(go to some html files extract some relevant data and tags that process is called parseing)
+
+use cases
+-extracting product data from an e-commerce website
+
+pros
+-data is publically accessible and free
+
+cons
+-legal and ethical consideration,subject to change of website stuructured(because we are not sure that if we can use that data that we are scraping from html to reuse for different purpose)
+
+challenges 
+-handeling dynamic websites(easy for static but challenging for dynamic website)
+-handeling anti scraping mechanism(some website applies some machinism to block web scraping)
+-maintaining scrapers(structure of website change a alot with the time being)
+
+mainly used to talk to web sites /web pages to extract and download the html files etc in the form of json,text format etc.
+
+when to use web scraping
+-use this when APIs are not available
+-when you need datafrom websites without exposing your identity or APIs usage
+
+----------------------------------------------------------------------------------------------
+(2)
+APIs
+• APIs help applications to connect with each other
+• APIs provide structured data in a standardized format (JSON, XML)
+
+Use cases:
+• integrating with third-party services
+• accessing real-time data about sport scores, or weather data from a weather API
+
+• Pros: Controlled access to data, less likely to violate terms of service, structured and consistent data
+
+• Cons: Limited to the data provided by the API, may require authentication and API keys, may cost money to have an API key
+
+• Challenges:
+• finding suitable APIs
+• understanding API documentation
+• handling rate limits
+
+when to use APIs
+-when you need real time or up to date data from a realible source
+-when you want to ensure complience with data usage policies and avoid potencial legal issues
+
+implement rate limiting and caching to reduce load on servers
+(cache is the data that is already stored in our database / local disk to check that and also check with the data that we are extracting that is already exist or not)
